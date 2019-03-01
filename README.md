@@ -1,12 +1,19 @@
-I have done this project as an extension to OCR text recognition(bank check's) done by [Adrian](https://www.pyimagesearch.com/category/optical-character-recognition-ocr/)
+- This project is an extension to OCR text recognition(bank checks) done by Adrian you can find it [here]((https://www.pyimagesearch.com/category/optical-character-recognition-ocr/), Where he uses conventional approach and suggests that ML or DL could give better results so I thought to give it a shot, 
 
-I have upgraded the project by adding deep learning to it, instead of conventional method to predict what character it is on the check(which is done by comparing), I have trained a CNN(Convolution neural network ) to predict the respective text with font( MICR E-13B )
 
-Implementation-:
+
+- I have improved the accuracy of the prediction of text by training a deep learning model(CNN) on a dataset of bank check's with font style(MICR E-138)
+
+
+
+### Implementation
+
+
 
 1) Clone the repo
 
 2) Install the necessary packages:
+
 ```
 pip install keras
 pip install skimage
@@ -16,6 +23,7 @@ pip install imutils
 ```
 
 3) navigate to OCR directory
+
 ```
 cd OCR
 ```
