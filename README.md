@@ -16,13 +16,8 @@ Accuracy of the predictions have substantially improved by training a deep learn
 pip install -r requirements.txt
 ```
 
-3) Navigate to OCR directory
 
-```
-cd OCR
-```
-
-4) run the model.py file
+3) Test the model.py file
 
 ```
 python model.py
