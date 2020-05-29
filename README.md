@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 
-3) Test the model.py file
+3) Test the model
 
 ```
 python model.py
